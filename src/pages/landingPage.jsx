@@ -6,7 +6,7 @@ import { SiGithub, SiTiktok, SiTwitter, SiYoutube } from "react-icons/si";
 
 export const RevealBento = () => {
   return (
-    <div className="min-h-screen bg-zinc-900 px-4 py-12 text-zinc-50">
+    <div className="min-h-screen bg-zinc-900 px-4 py-12 text-zinc-50 m-0">
       <Logo />
       <motion.div
         initial="initial"

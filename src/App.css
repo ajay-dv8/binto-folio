@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+@media (max-width: 420px) {
+  #root {
+    padding: 0; /* Adjusted padding */
+  }
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
