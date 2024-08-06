@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
 import { FiArrowRight, FiMail, FiMapPin } from "react-icons/fi";
-import { SiGithub, SiTiktok, SiTwitter, SiYoutube } from "react-icons/si";
+import { SiGithub, SiTiktok, SiTwitter, SiYoutube, SiPhone } from "react-icons/si";
 
 export const RevealBento = () => {
   return (
@@ -80,7 +80,7 @@ const HeaderBlock = () => (
       </span>
     </h1>
     <a
-      href="#"
+      href="mailto:ajaydives3@gmail.com"
       className="flex items-center gap-1 text-red-300 hover:underline"
     >
       Contact me <FiArrowRight />
@@ -98,10 +98,10 @@ const SocialsBlock = () => (
       className="col-span-6 bg-red-500 md:col-span-3"
     >
       <a
-        href="#"
+        href="tel:+4733378901"
         className="grid h-full place-content-center text-3xl text-white"
       >
-        <SiYoutube />
+        <SiPhone />
       </a>
     </Block>
 
@@ -113,7 +113,7 @@ const SocialsBlock = () => (
       className="col-span-6 bg-green-600 md:col-span-3"
     >
       <a
-        href="#"
+        href="https://github.com/ajay-dv8/"
         className="grid h-full place-content-center text-3xl text-white"
       >
         <SiGithub />
